@@ -53,7 +53,7 @@ function Login(props) {
 }
 
 Login.propTypes = {
-
+	
 }
 
 export default Login

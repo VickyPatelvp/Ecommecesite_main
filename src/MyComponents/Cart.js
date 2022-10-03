@@ -64,7 +64,7 @@ function Cart(props) {
                                                     <input id="demo_vertical5" type="text" value="1" name="demo_vertical2" />
                                                 </div>
                                             </td>
-                                            <td class="product-item-close"><a href="javascript:void(0);" data-dismiss="alert" aria-label="close" class="ti-close"></a></td>
+                                            <td className="product-item-close"><a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a></td>
                                             <td className="product-item-totle">$28.00</td>
                                             <td className="product-item-close">
                                                 <a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a>

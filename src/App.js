@@ -21,7 +21,7 @@ function App() {
     <Cart></Cart>
   </div>
   <div>
-  <button class="scroltop fa fa-chevron-up" ></button>
+  <button className="scroltop fa fa-chevron-up" ></button>
     </div>
     <Adminpanel></Adminpanel>
     </>
