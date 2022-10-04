@@ -13,18 +13,7 @@ function App() {
     <div className='row'>
       <Home/>
     </div>
-   
-<div className='row'>
-
-  </div>
-  <div className='row'>
-    <Cart></Cart>
-  </div>
-  <div>
-  <button className="scroltop fa fa-chevron-up" ></button>
-    </div>
-    <Adminpanel></Adminpanel>
-    </>
+      </>
   
   );
 }

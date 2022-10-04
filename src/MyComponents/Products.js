@@ -33,8 +33,8 @@ function Products() {
     ]
 
     return (
-        <div className="row">
-            <div className='col-3 bg-sb'>
+        <div className="row"> 
+            <div className='col-3 bg-sb pt-5'>
                 <Sidebar />
             </div>
             <div className='col-8'>

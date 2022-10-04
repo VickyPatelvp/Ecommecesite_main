@@ -34,7 +34,7 @@ function Cart(props) {
                                             </td>
                                             <td className="product-item-totle">$28.00</td>
                                             <td className="product-item-close">
-                                                <a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a>
+                                                <a href="" data-dismiss="alert" aria-label="close" className="ti-close"></a>
                                             </td>
                                         </tr>
                                         <tr className="alert">
@@ -50,7 +50,7 @@ function Cart(props) {
                                             </td>
                                             <td className="product-item-totle">$28.00</td>
                                             <td className="product-item-close">
-                                                <a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a>
+                                                <a href="" data-dismiss="alert" aria-label="close" className="ti-close"></a>
                                             </td>
                                         </tr>
                                         <tr className="alert">
@@ -64,10 +64,10 @@ function Cart(props) {
                                                     <input id="demo_vertical5" type="text" value="1" name="demo_vertical2" />
                                                 </div>
                                             </td>
-                                            <td className="product-item-close"><a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a></td>
+                                            <td className="product-item-close"><a href="" data-dismiss="alert" aria-label="close" className="ti-close"></a></td>
                                             <td className="product-item-totle">$28.00</td>
                                             <td className="product-item-close">
-                                                <a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a>
+                                                <a href="" data-dismiss="alert" aria-label="close" className="ti-close"></a>
                                             </td>
                                         </tr>
                                         <tr className="alert">
@@ -83,7 +83,7 @@ function Cart(props) {
                                             </td>
                                             <td className="product-item-totle">$28.00</td>
                                             <td className="product-item-close">
-                                                <a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a>
+                                                <a href="" data-dismiss="alert" aria-label="close" className="ti-close"></a>
                                             </td>
                                         </tr>
                                         <tr className="alert">
@@ -111,7 +111,7 @@ function Cart(props) {
                                             </td>
                                             <td className="product-item-totle">$28.00</td>
                                             <td className="product-item-close">
-                                                <a href="javascript:void(0);" data-dismiss="alert" aria-label="close" className="ti-close"></a>
+                                                <a href="" data-dismiss="alert" aria-label="close" className="ti-close"></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -184,7 +184,7 @@ function Cart(props) {
                         <div className="col-md-4 col-lg-4">
                             <div className="icon-bx-wraper left shop-service-info m-b30">
                                 <div className="icon-md text-black radius">
-                                    <a href="javascript:void(0);" className="icon-cell text-white"><i className="fa fa-gift"></i></a>
+                                    <a href="" className="icon-cell text-white"><i className="fa fa-gift"></i></a>
                                 </div>
                                 <div className="icon-content">
                                     <h5 className="dlab-tilte">Free shipping on orders $60+</h5>
@@ -195,7 +195,7 @@ function Cart(props) {
                         <div className="col-md-4 col-lg-4">
                             <div className="icon-bx-wraper left shop-service-info m-b30">
                                 <div className="icon-md text-black radius">
-                                    <a href="javascript:void(0);" className="icon-cell text-white"><i className="fa fa-plane"></i></a>
+                                    <a href="" className="icon-cell text-white"><i className="fa fa-plane"></i></a>
                                 </div>
                                 <div className="icon-content">
                                     <h5 className="dlab-tilte">Worldwide delivery</h5>
@@ -206,7 +206,7 @@ function Cart(props) {
                         <div className="col-md-4 col-lg-4">
                             <div className="icon-bx-wraper left shop-service-info m-b30">
                                 <div className="icon-md text-black radius">
-                                    <a href="javascript:void(0);" className="icon-cell text-white"><i className="fa fa-history"></i></a>
+                                    <a href="" className="icon-cell text-white"><i className="fa fa-history"></i></a>
                                 </div>
                                 <div className="icon-content">
                                     <h5 className="dlab-tilte">60 days money back guranty!</h5>

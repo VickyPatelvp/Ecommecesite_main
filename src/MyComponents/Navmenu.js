@@ -11,12 +11,15 @@ import PersonIcon from '@mui/icons-material/Person';
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
 import { Badge } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function Navmenu() {
   return (
     <Navbar bg="black" className='sticky-header' expand="lg" style={{backgroundColor:'white'}}>
     <Container fluid style={{backgroundColor:"white"}}> 
+    <Link className="nav-text"  to="/">
     <img className="logo" src="images/logo/main-logo.jpg" alt="Logo"style={{ maxHeight: '70px' }} />
+    </Link>
       <Navbar.Toggle aria-controls="navbarScroll"  />
       <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -24,27 +27,17 @@ function Navmenu() {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link className="nav-text"  href="#action1"><HomeIcon></HomeIcon> </Nav.Link>
-          <Nav.Link className="nav-text" href="#action2">
-          <CarouselItem></CarouselItem>
+          <Link className="nav-text"  to="/"><HomeIcon /> </Link>
+          <Link className="nav-text" to="/cart">
+          <CarouselItem />
           <Badge badgeContent={4} color="primary">
           <AddShoppingCartIcon/>
 </Badge>
           
-            </Nav.Link>
-          {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action5">
-              Something else here
-            </NavDropdown.Item>
-          </NavDropdown> */}
-          <Nav.Link className="nav-text" href="#">
-            <PersonIcon></PersonIcon>
-          </Nav.Link>
+            </Link> 
+          <Link className="nav-text" to="login">
+            <PersonIcon />
+          </Link>
         </Nav>
         <Form className="d-flex ms-">
           <Form.Control 

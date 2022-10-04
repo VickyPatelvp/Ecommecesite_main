@@ -9,7 +9,7 @@ function Register(props) {
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 text-center">
-                    <h2 className="font-weight-700 m-t0 m-b40">CREATE AN ACCOUNT</h2>
+                    <h2 className="font-weight-700 m-t0 m-b40">CREATE AN ACCOUNT {props.title}</h2>
                 </div>
             </div>
             <div className="row">
@@ -50,7 +50,7 @@ function Register(props) {
 }
 
 Register.propTypes = {
-
+title : PropTypes.string
 }
 
 export default Register
