@@ -12,48 +12,47 @@ import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
 import { Badge } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { Opacity } from '@mui/icons-material';
 
 function Navmenu() {
   return (
-    <Navbar bg="black" className='sticky-header' expand="lg" style={{backgroundColor:'white'}}>
-    <Container fluid style={{backgroundColor:"white"}}> 
-    <Link className="nav-text"  to="/">
-    <img className="logo" src="images/logo/main-logo.jpg" alt="Logo"style={{ maxHeight: '70px' }} />
-    </Link>
-      <Navbar.Toggle aria-controls="navbarScroll"  />
-      <Navbar.Collapse id="navbarScroll">
-        <Nav
-          className=" ms-auto my-2 my-lg-0"
-          style={{ maxHeight: '100px' }}
-          navbarScroll
-        >
-          <Link className="nav-text"  to="/"><HomeIcon /> </Link>
-          <Link className="nav-text" to="/cart">
-          <CarouselItem />
-          <Badge badgeContent={4} color="primary">
-          <AddShoppingCartIcon/>
-</Badge>
-          
-            </Link> 
-          <Link className="nav-text" to="login">
-            <PersonIcon />
-          </Link>
-        </Nav>
-        <Form className="d-flex ms-">
-          <Form.Control 
-            type="search"
-            placeholder="Search"
-            className="me-2 inputbox1"
-            aria-label="Search"
-          />
-          <Button className='btn-primary text-white btn1 m-0' variant="outline-success" ><SearchIcon></SearchIcon></Button>
-        </Form>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
+    <><Navbar bg="black" className='sticky-header' expand="lg" style={{ backgroundColor: 'white', Opacity:'0.5'}}>
+      <Container fluid style={{ backgroundColor: "white" }}>
+        <Link className="nav-text" to="/">
+          <img className="logo" src="images/logo/main-logo.jpg" alt="Logo" style={{ maxHeight: '70px' }} />
+        </Link>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className=" ms-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Link className="nav-text" to="/"><HomeIcon /> </Link>
+            <Link className="nav-text" to="/cart">
+              <CarouselItem />
+              <Badge badgeContent={4} color="primary">
+                <AddShoppingCartIcon />
+              </Badge>
+
+            </Link>
+            <Link className="nav-text" to="login">
+              <PersonIcon />
+            </Link>
+          </Nav>
+        
  
+  
+          <Form className="d-flex ms-">
+          <input type="text" class="form-control d-flex ms-" placeholder="Search" aria-label="Recipient's username with two button addons"/>
+          <button class="btn btn-sm  btn-outline-secondary" type="button"><SearchIcon></SearchIcon></button>
+          
+          </Form>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar> 
+  </>
   )
 }
-
 export default Navmenu
 

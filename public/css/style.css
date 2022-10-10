@@ -16942,7 +16942,7 @@ svg {
 }
 
 .bg-sb {
-    background-color: skyblue;
+    background: #dce1e3;
     height: auto;
     border-right: black;
     border-width: 5px;
@@ -16965,7 +16965,7 @@ p {}
 
 hr {
     color: red !important;
-    border-width: 10px !important;
+    border-width: 5px !important;
     border-color: blue !important;
     /* width: 5px; */
 }
@@ -17058,6 +17058,7 @@ body {
 	color: white;
 	cursor: pointer;
 	border-radius: 5px;
+    font-size: medium;
 }
 .btn-area:hover {
 	background-color: #76bfb6;
@@ -17099,12 +17100,13 @@ body {
 	height: 40px;
 	line-height: 40px;
 	font-weight: 900;
+    font-size: medium;
 }
 .right-bar i {
 	margin-right: 15px;
 }
 .right-bar a:hover {
-	background-color: #3972a7;
+	background-color:#bce8f1;
 }
 @media screen and (max-width: 700px) {
 	.content h3 {
@@ -17144,6 +17146,7 @@ body {
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Slab', serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
   }
@@ -17510,3 +17513,5 @@ body {
   .mrgn-30-top {
       margin-top: 30px
   }
+
+  

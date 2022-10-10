@@ -2,7 +2,6 @@ import React from 'react';
 import Product from './Product';
 import Sidebar from './Sidebar';
 
-
 function Products() {
     let products = [
         {
@@ -33,7 +32,7 @@ function Products() {
     ]
 
     return (
-        <div className="row"> 
+        <div className="row" style={{ margintop:'70px' }}> 
             <div className='col-3 bg-sb pt-5'>
                 <Sidebar />
             </div>

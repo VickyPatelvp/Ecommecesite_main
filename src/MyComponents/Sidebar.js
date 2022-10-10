@@ -37,18 +37,29 @@ function Sidebar() {
                 </div>
 
             </div>
-           
+            <ul class="dropdown-menu">
+  <li><h6 class="dropdown-header">Dropdown header</h6></li>
+  <li><a class="dropdown-item" href="#">Action</a></li>
+  <li><a class="dropdown-item" href="#">Another action</a></li>
+</ul>
             <div className='categories' >
                 <div className='container'>
-                    <h5 className='text-center'>PRODUCT CATEGORIES</h5>
+                    <h5 className='text-center'>PRODUCT CATEGORIES a</h5>
                     <hr></hr>
                     <div className='category ms-5'>
                         <ul>
                             {items.map((value, index) => {
-                                return <li key={index}>{value}</li>
+                                return(<> 
+                                <li key={index}><a class="dropdown-item" to="./">{value}</a></li>
+
+                                </>
+                                )
+
                             })}
                         </ul>
                     </div>
+
+                  
 
                 </div>
 
